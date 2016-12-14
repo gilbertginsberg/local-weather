@@ -12,8 +12,81 @@ body {
   flex-direction: column;
   align-items: center;
   font-size: medium;
+  color: #b2b200;
 }
 
-p {
-  font-size: 150%;
+h1 {
+  font-size: 200%;
+}
+
+.clear-sky-day {
+  background: url(images/clear-sky-day.jpg) no-repeat center center fixed;
+}
+
+.clear-sky-night {
+  background: url(images/clear-sky-night.jpg) no-repeat center center fixed;
+}
+
+.few-clouds-day {
+  background: url(images/few-clouds-day.jpg) no-repeat center center fixed;
+}
+
+.few-clouds-night {
+  background: url(images/few-clouds-night.jpg) no-repeat center center fixed;
+}
+
+.scattered-clouds {
+  background: url(images/scattered-clouds.jpg) no-repeat center center fixed;
+}
+
+.broken-clouds-day {
+  background: url(images/broken-clouds-day.jpg) no-repeat center center fixed;
+}
+
+.broken-clouds-night {
+  background: url(images/broken-clouds-night.jpg) no-repeat center center fixed;
+}
+
+.rain {
+  background: url(images/rain.jpg) no-repeat center center fixed;
+}
+
+.rain-night {
+  background: url(images/rain-night.jpg) no-repeat center center fixed;
+}
+
+.thunderstorm {
+  background: url(images/storm.jpg) no-repeat center center fixed;
+}
+
+.snow-day {
+  background: url(images/snow-day.jpg) no-repeat center center fixed;
+}
+
+.snow-night {
+  background: url(images/snow-night.jpg) no-repeat center center fixed;
+}
+
+.mist {
+  background: url(images/mist.jpg) no-repeat center center fixed;
+}
+
+.clear-sky-day, .clear-sky-night, .few-clouds-day, .few-clouds-night, .scattered-clouds,
+.broken-clouds-day, .broken-clouds-night, .rain, .rain-night, .thunderstorm, .snow-day,
+.snow-night, .mist {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div {
+  font-size: 175%;
+  display: flex;
+  align-items: baseline;
+}
+
+span {
+  align-self: center;
+  margin-left: 9px;
 }
