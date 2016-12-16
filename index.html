@@ -1,35 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" id="html">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>How's the weather?</title>
     <link href="styles.css" rel="stylesheet">
-    <script src="weather.js"></script>
   </head>
   <body id="body">
+
     <header>
-      <h1>If only you could check the weather somewhere...<h1>
+      <h1>If you know the weather, you'll know how to put yourself together.</h1>
     </header>
     <main id="main">
 
-      <div>
-        <img src="" alt="" id="weatherIcon">
+
+      <div class="temperature">
+        <img src="#" alt="" id="weatherIcon">
         <span id="temp"></span>
+        <button id="degrees">&#8592; Convert to C</button>
       </div>
-
-      <div id="city">
-
-      </div>
+      <div id="city"></div>
 
 
-
-
+      <p id="degreeObj"></p>
     </main>
    <footer>
-
+     <p>By Steven Gilbert</p>
    </footer>
-    <script src="main.js" id="mainJS"></script>
-
+   <script src="main.js" id="mainJS"></script>
   </body>
 </html>
