@@ -129,7 +129,7 @@ function changeTempScale(e) {
 function displayLocation(pos) {
   var latitude = pos.coords.latitude;
   var longitude = pos.coords.longitude;
-  var urlOfWeatherApi = 'https://api.openweathermap.org/data/2.5/weather?lat=' + latitude + '&lon=' + longitude + '&callback=showWeather&APPID=55b43e3172f962c142138fd424743eb6';
+  var urlOfWeatherApi = 'http://api.openweathermap.org/data/2.5/weather?lat=' + latitude + '&lon=' + longitude + '&callback=showWeather&APPID=55b43e3172f962c142138fd424743eb6';
   createJsonpScriptTag(); //creates new script to make jsonp call
   var openWeatherScript = document.getElementById("openWeatherAPI");
   openWeatherScript.setAttribute("src", urlOfWeatherApi);
