@@ -110,3 +110,17 @@ button {
 footer {
   margin-top: 75%;
 }
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+}
