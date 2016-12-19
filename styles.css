@@ -94,7 +94,8 @@ span {
 button {
   align-self: center;
   margin-left: 12px;
-  border: 5px solid black;
+  border: 5px solid #7f7f4a;
+  border-radius: 1000px;
   min-width: 50px;
   min-height: 25px;
   font-size: 50%;

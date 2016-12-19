@@ -162,7 +162,7 @@ function createJsonpScriptTag() {
   newScriptNode.setAttribute("id", "openWeatherAPI");
 }
 
-// **function to check use's location using geolocation api**
+// ** collects user's location using geolocaion api because we need to supply API call with user's coordinates
 function getMyLocation() {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(displayLocation, error, options);
